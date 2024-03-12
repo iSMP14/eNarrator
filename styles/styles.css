@@ -1,0 +1,57 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.form_label {
+  margin: 1rem;
+}
+
+.form_input {
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 100%;
+}
+
+.form_button {
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
